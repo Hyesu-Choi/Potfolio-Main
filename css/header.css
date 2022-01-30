@@ -1,8 +1,14 @@
 header {
     width: 100%;
-    height: 7rem;
-    background: #fff;
+    height: 5rem;
+    background: rgba(0,0,0,0.7);
     position: fixed;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+li { display: inline-block; padding: 1rem 1.5rem; }
+a { color: #fff;}
+a::after { content: ''; width: 100%; height: 2px; background: #fff; position: absolute; top: 0; left: 0;}
