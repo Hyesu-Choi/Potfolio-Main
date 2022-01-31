@@ -1,7 +1,7 @@
 header {
     width: 100%;
     height: 5rem;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.6);
     position: fixed;
     top: 0;
     left: 0;
@@ -10,5 +10,6 @@ header {
     align-items: center;
 }
 li { display: inline-block; padding: 1rem 1.5rem; }
-a { color: #fff;}
-a::after { content: ''; width: 100%; height: 2px; background: #fff; position: absolute; top: 0; left: 0;}
+a { color: #fff; position: relative; }
+a::after { content: ''; width: 100%; height: 2px; background: #fff; position: absolute; top: 1.5rem; left: 0; opacity: 0;}
+li:hover a::after { opacity: 1;}
