@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
 @import "reset.css";
 @import "variables.css";
 
@@ -7,23 +11,34 @@
 @import "header.css";
 @import "footer.css";
 /* Screens */
-@import "main.css";
+/* @import "main.css";
 @import "sub01.css";
 @import "sub02.css";
-@import "sub03.css";
+@import "sub03.css"; */
 
 body {
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 
-video { display: block;  width: 100%;}
+h1 {
+  font-family: "Merriweather", serif;
+}
 
-img { width: 100%;}
+video {
+  display: block;
+  width: 100%;
+}
 
+img {
+  width: 100%;
+  display: block;
+}
 
 /* ========== home ========== */
+.home {
+}
 .home .home_title {
   position: absolute;
   top: 50%;
@@ -32,8 +47,50 @@ img { width: 100%;}
   text-align: center;
   color: #fff;
 }
-.home_title h1 {font-size: 7rem; margin-bottom: 3rem;}
-.home_title h2 { font-size: 4rem; margin-bottom: 5rem;}
-.home_title a { font-size: 1rem; padding: 1rem 1.5rem; border: 1px solid #fff; }
-.home_title a i {  }
+.home_title h1 {
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+.home_title h2 {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+.home_title a {
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #fff;
+}
+.home_title a i {
+}
 
+/* ========== ABOUT ========== */
+.about {
+  width: 100%;
+  background: beige;
+}
+
+/* ========== WORKS ========== */
+.works {
+  width: 100%;
+  background: navy;
+}
+.works .cocktailer {
+  width: 80%;
+  margin: 0 auto;
+  background: navajowhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cocktailer a {
+  width: 50%;
+}
+.cocktailer .work_title {
+  width: 50%;
+}
+
+/* ========== CONTACT ========== */
+.contact {
+  width: 100%;
+  background: beige;
+}
