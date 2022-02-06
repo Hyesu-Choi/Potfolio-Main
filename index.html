@@ -10,94 +10,168 @@
     <link rel="shortcut icon" href="img/favi.ico">
 </head>
 <body>
-    <div class="wrap">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#works">MY WORK</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#works">MY WORK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="trigger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
 
-        <section id="home" class="home">
-            <!-- <video muted autoplay loop">
-                <source src="img/Ink - 67361.mp4" type="video/mp4">
-            </video> -->
-            <div class="home_title">
-                <h1>C:HOI HYE SU</h1>
-                <h2>PORTFOLIO</h2>
-                <a href="#works">VIEW MORE
-                    <i class='bx bxs-right-arrow'></i>
+    <section id="home" class="home">
+        <div class="home_title">
+            <h1>C:HOI HYE SU</h1>
+            <h2>PORTFOLIO</h2>
+            <a href="#works">VIEW MORE
+                <i class='bx bxs-right-arrow'></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about_me">
+            <h1>about me</h1>
+            <p>안녕하세요 신입 웹 퍼블리셔 최혜수입니다. HTML의 구조를 잘 이해하고 있으며, 웹 접근성과 웹표준에 맞는 마크업을 구현하고 있습니다.
+                디자인의 의도에 맞는 CSS를 구현하며, JavaScript, jQury 문법을 이해하고 있습니다.
+                사용자 중심의 UI/UX 디자인을 추구합니다.
+            </p>
+        </div>
+
+        <div class="my_skills">
+            <h1>My Skills</h1>
+            <div class="bar_wrap">
+                <div class="skills_bar">
+                    <h3>HTML <abbr title="">95%</abbr></h3>
+                    <div class="thumb"><span></span></div>
+                </div>
+    
+                <div class="skills_bar">
+                    <h3>CSS <abbr title="">90%</abbr></h3>
+                    <div class="thumb"><span></span></div>
+                </div>
+    
+                <div class="skills_bar">
+                    <h3>JAVASCRIPT <abbr title="">65%</abbr></h3>
+                    <div class="thumb"><span></span></div>
+                </div>
+    
+                <div class="skills_bar">
+                    <h3>jQuery <abbr title="">70%</abbr></h3>
+                    <div class="thumb"><span></span></div>
+                </div>
+
+                <div class="skills_bar">
+                    <h3>Bootstrap <abbr title="">65%</abbr></h3>
+                    <div class="thumb"><span></span></div>
+                </div>
+
+                <div class="skills_bar">
+                    <h3>Photoshop / Illustrator <abbr title="">65%</abbr></h3>
+                    <div class="thumb"><span></span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="works" class="works">
+        <h1>My Works</h1>
+        <div class="container">
+            <div class="cocktailer work_card">
+                <a href="https://github.com/Hyesu-Choi/Cocktailer">
+                    <img src="img/cocktailer.jpg" alt="">
+                    <div class="work_card_content">
+                        <p>기획부터 퍼블리싱까지 제작한 사이트입니다. <br> [성인인증창, 메인, 서브페이지] <br> 클릭하면 사이트로 이동합니다.</p>
+                    </div>
+                </a>
+                <div class="work_title">
+                    <h3>Cocktailer</h3>
+                    <p>기획 / 디자인 / 퍼블리싱 팀 프로젝트 [ 제작기간 3주]</p>
+                    <a href="https://github.com/Hyesu-Choi/Cocktailer">View Site</a>
+                </div>
+            </div>
+
+            <div class="northe work_card">
+                <div class="work_title">
+                    <h3>Northe</h3>
+                    <p>기획 / 퍼블리싱 [ 제작기간 1주]</p>
+                    <a href="https://github.com/Hyesu-Choi/Noirthe">View Site</a>
+                </div>
+                <a href="https://github.com/Hyesu-Choi/Noirthe">
+                    <img src="img/northe.jpg" alt="">
+                    <div class="work_card_content">
+                        <p>기획부터 퍼블리싱까지 제작한 사이트입니다. <br> [메인 페이지] <br> 클릭하면 사이트로 이동합니다.</p>
+                    </div>
                 </a>
             </div>
-        </section>
 
-        <section id="about" class="about">
-            <div class="about_me">
-                <h1>about me</h1>
-                <p>안녕하세요 신입 웹 퍼블리셔 최혜수입니다. HTML의 구조를 잘 이해하고 있으며, 웹 접근성과 웹표준에 맞는 마크업을 구현하고 있습니다.
-                    디자인의 의도에 맞는 CSS를 구현하며, JavaScript, jQury 문법을 이해하고 있습니다.
-                    사용자 중심의 UI/UX 디자인을 추구합니다.
-                </p>
-            </div>
-            <div class="my_skills">
-                <h1>My Skills</h1>
-                <p>HTML 90%</p>
-                <p>CSS 85%</p>
-                <p>Javascript 65%</p>
-                <p>jQuery 70%</p>
-                <p>Bootstrap 65%</p>
-                <p>Photoshop / Illustrator 65%</p>
-            </div>
-        </section>
-
-        <section id="works" class="works">
-            <div class="container">
-                <div class="cocktailer">
-                    <a href="https://github.com/Hyesu-Choi/Cocktailer"><img src="img/cocktailer.jpg" alt="">
-                    </a>
-                    <div class="work_title">
-                        <h3>Cocktailer</h3>
-                        <p>기획 / 디자인 / 퍼블리싱 팀 프로젝트 [ 제작기간 2주]</p>
-                        <a href="">View Site</a>
+            <div class="twg work_card">
+                <a href="https://github.com/Hyesu-Choi/TWG">
+                    <img src="img/twg.jpg" alt="">
+                    <div class="work_card_content">
+                        <p>TWG 사이트를 반응형으로 코딩하였습니다.  <br> [메인 페이지] <br> 클릭하면 사이트로 이동합니다.</p>
                     </div>
-
+                </a>
+                <div class="work_title">
+                    <h3>TWG</h3>
+                    <p>기획 / 퍼블리싱 [ 제작기간 1주]</p>
+                    <a href="https://github.com/Hyesu-Choi/TWG">View Site</a>
                 </div>
-
-                <div class="northe"><a href="https://github.com/Hyesu-Choi/Noirthe"></a></div>
-                <div class="twg"><a href="https://github.com/Hyesu-Choi/TWG"></a></div>
-                <div class="hotelbooking"><a href="https://github.com/Hyesu-Choi/HotelBooking"></a></div>
-                <div class="rosa"></div>
             </div>
-        </section>
+            
 
-        <section id="contact" class="contact">
-            <h2>제 포트폴리오를 봐주셔서 감사합니다.</h2>
-            <p>하단의 연락처로 연락주시면 확인 후 연락드리겠습니다.</p>
-            <div>
-                <div class="contact_card">
-                    <i class='bx bx-map-alt'></i>
-                    <h3>address</h3>
-                    <p>광주광역시 북구</p>
-                </div>
-                <div class="contact_card">
-                    <i class='bx bx-envelope'></i>
-                    <h3>email</h3>
-                    <p>hs1263@naver.com</p>
-                </div>
-                <div class="contact_card">
-                    <i class='bx bx-mobile'></i>
-                    <h3>Phone</h3>
-                    <p>+82-10-3922-0580</p>
-                </div>
+        </div>
+    </section>
 
+    <section id="contact" class="contact">
+        <i class='bx bx-smile'></i>
+        <h2>제 포트폴리오를 봐주셔서 감사합니다.</h2>
+        <p>하단의 연락처로 연락주시면 확인 후 연락드리겠습니다.</p>
+        <div class="contact_wrap">
+            <div class="contact_card">
+                <i class='bx bx-map-alt'></i>
+                <h3>address</h3>
+                <span></span>
+                <p>광주광역시 북구</p>
             </div>
-        </section>
+            <div class="contact_card">
+                <i class='bx bx-envelope'></i>
+                <h3>email</h3>
+                <span></span>
+                <p>hs1263@naver.com</p>
+            </div>
+            <div class="contact_card">
+                <i class='bx bx-mobile'></i>
+                <h3>Phone</h3>
+                <span></span>
+                <p>+82-10-3922-0580</p>
+            </div>
 
-    </div>
+        </div>
+    </section>
+
+
+
+
+    
+
+    <!-- GSAP  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <!-- ScrollTrigger  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+    <script src="js/index.js"></script>
+
+
 
     
 </body>
